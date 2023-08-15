@@ -1,0 +1,42 @@
+.NavBar{
+    margin-top: 0.71rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo{
+    padding-left: 1.9rem;
+}
+.menu{
+    display: none;
+}
+
+
+
+
+@media screen and (min-width: 600px){
+    .NavBar{
+        margin-top: 2.88rem;
+        margin-left: 7rem;
+        margin-right: 7rem;
+    }
+    .logo{
+        height: 8.15rem;
+        width: auto; 
+    }
+    .menu{
+    min-width: 60%;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.menu a {
+    color: white;
+    font-size: 1.9rem;
+    text-decoration: none;
+}
+
+}

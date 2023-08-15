@@ -1,0 +1,142 @@
+.SectionFour {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.SubSectionOne {
+}
+.MainCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #00a79d;
+  margin-bottom: 2rem;
+}
+.MainCard h4 {
+  color: white;
+  padding: 1rem;
+}
+.Card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.SubCardTitle {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+.WireFrame {
+  height: 1.5rem;
+  width: 100%;
+  border-radius: 0.6rem;
+  margin-bottom: 0.5rem;
+  background-color: #e0e0e0;
+}
+.LogoCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.LogoCard h1 {
+  color: white;
+}
+.LogoCard h3 {
+  color: #00a79d;
+}
+.SubCard {
+  display: flex;
+  flex-direction: column;
+}
+.SubSectionTwo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  justify-content: center;
+  padding: 2rem;
+  text-align: center;
+}
+.SubSectionTwo h3{
+    font-size: 0.87rem;
+    margin-bottom: 0.5rem;
+}
+.SubSectionTwo h1{
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+
+}
+.SubSectionTwo p{
+    font-size: 0.75rem;
+    margin-bottom: 0.5rem;
+
+}
+
+.SubSectionTwo span {
+  color: #00a79d;
+}
+
+@media (min-width: 1025px) {
+  .SubSectionOne {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 2rem;
+  }
+  .MainCard {
+    display: flex;
+    padding: 4rem;
+    border-radius: 5rem;
+    align-items: flex-start;
+  }
+  .MainCard h4 {
+    margin-bottom: 2.5rem;
+  }
+
+  .SubCard {
+    flex-direction: row;
+    gap: 2rem;
+  }
+  .LogoCard {
+    align-items: center;
+    justify-content: center;
+  }
+ 
+  .LogoCard {
+    color: white;
+  }
+  .LogoCard span {
+    color: #00a79d;
+  }
+  .SubSectionTwo{
+    width: 90%;
+    margin: auto;
+    text-align: left;
+    align-items: flex-start;
+    padding: 3rem;
+  }
+  .SubSectionTwo h3{
+    font-size: 2.32rem;
+    margin-bottom: 0.5rem;
+
+}
+.SubSectionTwo h1{
+    font-size: 2.85rem;
+    margin-bottom: 0.5rem;
+}
+.SubSectionTwo p{
+    font-size: 1.42rem;
+    margin-bottom: 0.5rem;
+
+}
+
+.SubSectionTwo span {
+  color: #00a79d;
+}
+}

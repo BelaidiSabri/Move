@@ -1,0 +1,128 @@
+.SectionTwo{
+    background-color:#00A79D;
+    padding: 2rem;
+
+}
+.left-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.images{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+.images p {
+    color: white;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.left-section h2{
+    color: white;
+}
+.left-section h3{
+    color: #263238;
+}
+
+
+.right-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right-section {
+color: white;
+}
+.right-section span{
+    color: #263238;
+
+}
+
+.right-section h6{
+    margin-top: 1rem;
+    color: #000;
+}
+
+.right-section p{
+    margin-top: 1rem;
+    color: white;
+    text-align: center;
+    font-size: 0.5rem;
+}
+
+@media (min-width: 1025px){
+    .SectionTwo{
+        position: relative;
+        z-index: 14;
+        display: grid;
+        grid-template-columns: 1fr 1fr
+        
+        ;}
+        .left-section{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        
+        .images img{
+           width: 13rem;
+        }
+        .images p {
+            color: white;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+        .left-section h2{
+            color: white;
+            font-size: 3rem;
+        }
+        .left-section h3{
+            font-size: 2.43rem;
+            color: #263238;
+        }
+        
+        
+        .right-section{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .right-section {
+        color: white;
+        }
+        .right-section span{
+            color: #263238;
+        
+        }
+        .right-section h5{
+            font-size: 1.82rem;
+        }
+        .right-section h6{
+            font-size: 1.3rem;
+            margin-top: 1rem;
+            color: #000;
+        }
+        
+        .right-section p{
+            margin-top: 1rem;
+            color: white;
+            text-align: center;
+            font-size: 1rem;
+        }
+
+        .imposter{
+            position: relative;
+            top:8rem;
+        }
+
+}

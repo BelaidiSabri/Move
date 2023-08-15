@@ -1,0 +1,59 @@
+.SectionThree{
+    display: flex;
+    flex-direction: column;
+}
+.SectionThree .title {
+    color: white;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.container{
+    display: flex;
+    flex-direction: column; 
+    width: 70%;
+    margin: auto;
+}
+.SubSection{
+    position: relative;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin-bottom: 1.2rem;
+    margin-top: 1.3rem;
+}
+.imageNumber{
+color: white;
+ position: absolute;
+ left: 0rem;
+ bottom: 1rem;
+}
+.imageText{
+    color: white;
+}
+.imageSubText{
+    color: white;
+    font-size: 0.7rem;
+}
+
+@media (min-width: 1025px){
+    .container{
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        align-items: center;
+        gap: 2rem;
+        justify-content: space-around;
+        margin-bottom: 2rem;
+    }
+    .SectionThree .title {
+        color: white;
+        font-size: 2.45rem;
+        text-align: center;
+        margin-top: 14.7rem;
+        margin-bottom: 1rem;
+    }
+    .SubSection .image{
+        max-width: 5.3rem;
+    }
+}
